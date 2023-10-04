@@ -26,7 +26,7 @@ const Cards = ({
   stopIndex,
   setstopIndex,
 }) => {
-  console.log(params.id);
+  // console.log(params.id);
   const params = useParams();
   const navigate = useNavigate();
   useEffect(() => {
