@@ -1,0 +1,88 @@
+.CarCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f1f6fb;
+  border: 1px solid #fff;
+}
+.CarCard > img {
+  width: 100%;
+  border-radius: 10px;
+}
+.CarCard .name {
+  margin: 15px auto 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  color: #33324d;
+  align-items: center;
+}
+.CarCard .name span {
+  border: 1px dashed #4899ec;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.CarCard .details {
+  display: grid;
+  width: 98%;
+  grid-template-columns: 1fr 1fr;
+}
+.CarCard .details p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.CarCard .details p img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.CarCard .pricing {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.CarCard .pricing h2 span {
+  font-size: 16px;
+}
+.CarCard .pricing .background {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #daeaf9;
+  border-radius: 10px;
+  margin-left: auto;
+  cursor: pointer;
+}
+.CarCard .pricing img {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+}
+.CarCard .line {
+  height: 1px;
+  width: 90%;
+  margin: 5px auto;
+  background-color: #dbdfe9;
+}
+.CarCard .pricing button {
+  background-color: #4899ec;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  outline: none;
+  font-family: inherit;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+}
